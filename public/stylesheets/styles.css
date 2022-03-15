@@ -44,9 +44,33 @@ a{
 }
 .beersPage{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 #beersPage{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:50px ;
+}
+#beersPage h1{
+    margin-bottom: 50px;
+}
+#beersPage h3{
+    margin-bottom: 50px;
+}
+#beersPage p{
+    margin-bottom: 50px;
+}
+.divider{
+    width: 100%;
+    height: 3px;
+    background: #2081c3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.beersPage img{
+   margin-left: 50px;
+   margin-top: 50px;
+   width: 400px;
 }
